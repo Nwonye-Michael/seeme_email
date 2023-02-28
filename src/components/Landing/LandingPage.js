@@ -56,7 +56,7 @@ function LandingPage() {
               }}
             >
               <input placeholder=" Your email address" type="text" />
-              <button>Join {pcWidth && (wait)}list
+              <button>Join {pcWidth && ('wait')}list
                 </button>
             </form>
           </div>
