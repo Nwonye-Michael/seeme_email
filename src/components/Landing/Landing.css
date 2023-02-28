@@ -113,6 +113,7 @@
   }
   .content__desc {
     display: block;
+     margin-bottom: 4vh;
   }
   .content__desc i {
     display: grid;
