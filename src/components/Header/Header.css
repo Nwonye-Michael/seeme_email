@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  /* border: solid 1px black; */
+  margin-top: 3px;
+}
+.logo {
+  height: 50%;
+  margin-left: 6%;
+  padding-right: 2% !important;
+  padding: 4px 0;
+  border-right: 1px solid #c9c9c9;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header {
+    height: 7vh;
+    margin-top: 1vh;
+  }
+  .logo {
+    border-right: none;
+  }
+}
