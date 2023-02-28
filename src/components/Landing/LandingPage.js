@@ -56,7 +56,8 @@ function LandingPage() {
               }}
             >
               <input placeholder=" Your email address" type="text" />
-              <button>Join waitlist</button>
+              <button>Join {pcWidth && (wait)}list
+                </button>
             </form>
           </div>
           <div className="heroImg">
